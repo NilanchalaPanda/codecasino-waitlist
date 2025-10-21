@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎰 CodeCasino.tech - Where Code Meets Competition
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Supabase-171717?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase">
+  <img src="https://img.shields.io/badge/Launch-Q1%202025-cyan?style=for-the-badge&logo=rocket&logoColor=white" alt="Launch Date">
+</p>
 
-First, run the development server:
+<img width="1900" height="986" alt="image" src="https://github.com/user-attachments/assets/c91e0a46-9b44-4096-95d7-6481a4e9a86e" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**CodeCasino.tech** transforms daily coding practice into a competitive, high-stakes eSports experience. This landing page concept, built with Next.js and Tailwind CSS, focuses on gamification, real-time competition, and a captivating "space-style" aesthetic to attract coders looking for a thrilling way to level up their skills.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Core Idea: LeetCode + eSports + Casino Thrill
 
-## Learn More
+The platform aims to combat developer burnout and inconsistency by making learning **competitive, rewarding, and fun**.
 
-To learn more about Next.js, take a look at the following resources:
+- **Competitive Coding:** Standard algorithmic problems (DSA).
+- **eSports Thrill:** Real-time 1v1, team tournaments, and Battle Royales.
+- **Casino/Gamification:** Staking **Victory Points (VP)**, streak multipliers, power-ups, and tiered leagues.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Features
 
-## Deploy on Vercel
+A quick overview of the main concepts highlighted on the landing page:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Feature | Description |
+| :--- | :--- |
+| **Real-time Battles** | Compete live against global developers in head-to-head coding challenges. |
+| **Victory Points (VP)** | Earn a virtual currency by winning, used to buy power-ups, hints, and custom themes. |
+| **Skill-based Ranking** | Progress through **Bronze → Diamond** tiers with monthly championships and a promotion/relegation system. |
+| **Innovative Game Modes** | Includes **Battle Royale** (last coder standing), **Team Tournaments**, and a **Spectator Mode** with betting. |
+| **Power-Ups Store** | Spend VP on strategic advantages like **+5 minutes**, **hints**, or a **problem skip**. |
+| **Waitlist Integration** | Uses **Supabase** to collect and track early sign-ups and gather valuable user feedback/suggestions. |
