@@ -1,30 +1,26 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { JetBrains_Mono, Orbitron } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
+  variable: "--font-jetbrains",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const orbitron = Orbitron({
   subsets: ["latin"],
+  variable: "--font-orbitron",
 });
-
 export const metadata = {
   title: "CodeCasino | Get In Now!",
   description:
     "Where Code Meets Competition. Join the waitlist and enter the ultimate coding arena.",
-  icons: {
-    icon: "/favicon.ico", // favicon will automatically be picked up
-  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+        className={`${jetbrains.variable} ${orbitron.variable} antialiased bg-background text-foreground`}
       >
         {children}
       </body>
