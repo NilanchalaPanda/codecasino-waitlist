@@ -42,7 +42,7 @@ export const AboutSection = () => {
             </h3>
             <p className="text-secondary text-sm">
               Learning code should feel like a match, not a marathon —
-              competitive, thrilling, and rewarding every time.
+              competitive and rewarding every time.
             </p>
           </div>
         </div>
