@@ -9,7 +9,7 @@ export const BattleFormats = () => {
     {
       icon: <Code2 className="h-8 w-8" />,
       title: "Jogger",
-      duration: "15 mins",
+      duration: "10 mins",
       problems: "1",
       difficulty: "Easy/Medium/Hard",
       color: "cyan",

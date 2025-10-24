@@ -1,4 +1,4 @@
-# 🎰 CodeCasino.tech - Where Code Meets Competition
+# 🎰 CodeNEarn - Where Code Meets Competition
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
@@ -11,7 +11,7 @@
 <img width="1900" height="986" alt="image" src="https://github.com/user-attachments/assets/c91e0a46-9b44-4096-95d7-6481a4e9a86e" />
 
 
-**CodeCasino.tech** transforms daily coding practice into a competitive, high-stakes eSports experience. This landing page concept, built with Next.js and Tailwind CSS, focuses on gamification, real-time competition, and a captivating "space-style" aesthetic to attract coders looking for a thrilling way to level up their skills.
+**CodeNEarn** transforms daily coding practice into a competitive, high-stakes eSports experience. This landing page concept, built with Next.js and Tailwind CSS, focuses on gamification, real-time competition, and a captivating "space-style" aesthetic to attract coders looking for a thrilling way to level up their skills.
 
 ---
 

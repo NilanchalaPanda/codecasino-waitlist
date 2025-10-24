@@ -10,6 +10,7 @@ import { AboutSection } from "@/components/AboutSection";
 import { BattleFormats } from "@/components/BattleFormats";
 import { GameModes } from "@/components/GameModes";
 import { FeaturesSection } from "@/components/FeaturesSection";
+import { Toaster } from "react-hot-toast";
 
 export default function CodeCasinoLanding() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -24,6 +25,7 @@ export default function CodeCasinoLanding() {
 
   return (
     <div className="min-h-screen bg-background text-foreground font-mono">
+      <Toaster />
       <HeroSection />
       <AboutSection />
       <BattleFormats />

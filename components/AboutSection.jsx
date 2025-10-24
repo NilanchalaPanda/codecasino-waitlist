@@ -4,15 +4,12 @@ export const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-gray-900/50 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-display text-4xl sm:text-5xl mb-6 text-center">
-          <span className="text-cyan">LeetCode</span> +{" "}
-          <span className="text-orange-accent">eSports</span> +{" "}
-          <span className="text-cyan">Casino Thrill</span>
+        <h2 className="font-display text-4xl sm:text-5xl mb-6 text-center text-cyan font-semibold">
+          Tired of coding feeling like a chore?
         </h2>
         <p className="text-secondary text-center max-w-3xl mx-auto mb-12 text-lg">
-          CodeCasino transforms daily coding practice into a competitive,
-          rewarding experience. Join real-time battles, stake VP or real money,
-          climb ranks, and sharpen your coding skills.
+          Join real-time battles, stake VP or real money, climb ranks, and
+          sharpen your coding skills.
         </p>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-gray-800/50 p-8 rounded-xl border border-cyan/30 hover:border-cyan transition-all hover:shadow-lg hover:shadow-cyan/20">
@@ -42,7 +39,7 @@ export const AboutSection = () => {
             </h3>
             <p className="text-secondary text-sm">
               Learning code should feel like a match, not a marathon —
-              competitive, thrilling, and rewarding every time.
+              competitive and rewarding every time.
             </p>
           </div>
         </div>

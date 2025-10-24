@@ -11,7 +11,7 @@ const orbitron = Orbitron({
   variable: "--font-orbitron",
 });
 export const metadata = {
-  title: "CodeCasino | Get In Now!",
+  title: "CodeNEarn | Join Now!",
   description:
     "Where Code Meets Competition. Join the waitlist and enter the ultimate coding arena.",
 };

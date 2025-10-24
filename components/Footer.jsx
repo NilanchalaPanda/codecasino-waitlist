@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+import React from "react";
 
 export const Footer = () => {
   return (
@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-6">
           <h3 className="font-display text-3xl text-cyan mb-2">
-            CodeCasino.tech
+            CodeNEarn
           </h3>
           <p className="text-secondary text-sm">
             Where coders don't just solve — they compete, win, and level up.
@@ -17,37 +17,37 @@ export const Footer = () => {
             href="#about"
             className="text-secondary hover:text-cyan transition-colors"
           >
-            About
+            <span className="text-cyan opacity-90">[</span>About
+            <span className="text-cyan opacity-90">]</span>
           </a>
           <a
             href="#features"
             className="text-secondary hover:text-cyan transition-colors"
           >
-            Features
+            <span className="text-cyan opacity-90">[</span>Features
+            <span className="text-cyan opacity-90">]</span>
           </a>
           <a
             href="#formats"
             className="text-secondary hover:text-cyan transition-colors"
           >
-            Battle Formats
+            <span className="text-cyan opacity-90">[</span>Battle Formats
+            <span className="text-cyan opacity-90">]</span>
           </a>
           <a
             href="#waitlist"
             className="text-secondary hover:text-cyan transition-colors"
           >
-            Join Waitlist
+            <span className="text-cyan opacity-90">[</span>Join Waitlist
+            <span className="text-cyan opacity-90">]</span>
           </a>
         </div>
-        <div className="flex justify-center gap-4 mb-8">
-          {[1, 2, 3, 4, 5].map((i) => (
-            <Star
-              key={i}
-              className="h-5 w-5 text-orange-accent fill-orange-accent"
-            />
-          ))}
-        </div>
         <p className="text-secondary text-xs">
-          © 2025 CodeCasino. Concept by Nxl. All rights reserved.
+          © 2025 CodeNEarn. Concept by{" "}
+          <span className="text-cyan underline">
+            <a href="https://www.linkedin.com/in/nilanchal-panda/">Nxl</a>
+          </span>
+          . All rights reserved.
         </p>
       </div>
     </footer>
