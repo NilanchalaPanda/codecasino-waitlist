@@ -1,4 +1,5 @@
 import { JetBrains_Mono, Orbitron } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const jetbrains = JetBrains_Mono({
@@ -10,6 +11,7 @@ const orbitron = Orbitron({
   subsets: ["latin"],
   variable: "--font-orbitron",
 });
+
 export const metadata = {
   title: "CodeNEarn | Join Now!",
   description:
@@ -24,6 +26,8 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
+      {/* Add Google Analytics here */}
+      <GoogleAnalytics gaId="G-VHJS24GBHT" />
     </html>
   );
 }
